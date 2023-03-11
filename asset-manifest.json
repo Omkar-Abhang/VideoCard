@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/VideoCard/static/css/main.8bcd2221.css",
+    "main.js": "/VideoCard/static/js/main.9c153ee1.js",
+    "static/media/add.png": "/VideoCard/static/media/add.132696644e79a1f05c3b.png",
+    "index.html": "/VideoCard/index.html",
+    "main.8bcd2221.css.map": "/VideoCard/static/css/main.8bcd2221.css.map",
+    "main.9c153ee1.js.map": "/VideoCard/static/js/main.9c153ee1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bcd2221.css",
+    "static/js/main.9c153ee1.js"
+  ]
+}
