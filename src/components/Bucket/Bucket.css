@@ -1,0 +1,32 @@
+/* Styles for Bucket component */
+.bucket {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+    text-align: center;
+    margin: 1rem auto;
+    max-width: 500px;
+    background-color: #d2cdff94;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+  }
+  
+  .bucket h2 {
+    margin-top: 0;
+  }
+  
+  .bucket button {
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .bucket button:hover {
+    background-color: #2980b9;
+  }
