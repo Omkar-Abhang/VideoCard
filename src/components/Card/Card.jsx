@@ -19,7 +19,7 @@ const Card = ({ card, handleDelete, handleEdit }) => {
    videoRef.current.src = newUrl;
    videoRef.current.play();
 
-  //  play(newUrl);
+   play(newUrl);
 
   }
 
@@ -45,7 +45,7 @@ const Card = ({ card, handleDelete, handleEdit }) => {
           <input type="text" value={name} disabled />
           <input type="url" value={url} disabled />
          
-          <video ref={videoRef} controls/>
+          <video  src='{videoRef}' ref={videoRef} controls/>
           <br />
           <button  onClick={handlePlayClick}>Play</button>
           <button  onClick={() => handleDelete(card)}>Delete</button>
