@@ -43,7 +43,7 @@ const Card = ({ card, handleDelete, handleEdit }) => {
       ) : (
         <>
           <input type="text" value={name} disabled />
-          <input type="url" value={url} disabled />
+          <input type="url" value={url} />
          {/* <video src="{}" controls></video> */}
           <video  src={videoRef} ref={videoRef} controls/>
           <br />
