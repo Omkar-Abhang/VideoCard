@@ -47,7 +47,7 @@ const Card = ({ card, handleDelete, handleEdit }) => {
          {/* <video src="{}" controls></video> */}
           <video  src={videoRef} ref={videoRef} controls/>
           <br />
-          <button  onClick={handlePlayClick}>Play</button>
+          <button  onClick={() => handlePlayClick()}>Play</button>
           <button  onClick={() => handleDelete(card)}>Delete</button>
           <button  onClick={() => setEditMode(true)}>Edit</button>
         </>
